@@ -6,9 +6,9 @@ CompileFlags:
   Add: [-I=src/]
   Add: [-I=include/]
   Add: [-L=/usr/local/cuda/lib64/]
-  Add: [-L=/home/kalfazed/packages/TensorRT-8.5.1.7/lib/]
+  Add: [-L=/home/asher/develop/thirdparty/TensorRT-8.6.1.6/lib/]
   Add: [-std=c++11]
   Add: [-stdlib=libc++]
   Add: [--cuda-path=/usr/local/cuda]
-  Add: [--cuda-gpu-arch=sm_86]
+  Add: [--cuda-gpu-arch=sm_89]
   CompilationDatabase: config/

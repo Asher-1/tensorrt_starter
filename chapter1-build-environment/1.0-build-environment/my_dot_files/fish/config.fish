@@ -57,8 +57,8 @@ set -gx PATH bin $PATH
 set -gx PATH ~/.local/bin $PATH
 set -gx PATH /usr/local/bin $PATH
 set -gx PATH /usr/local/cuda/bin $PATH
-set -gx PATH /home/kalfazed/packages/TensorRT-8.5.1.7/bin $PATH
-set -gx LD_LIBRARY_PATH /home/kalfazed/packages/TensorRT-8.5.1.7/lib $LD_LIBRARY_PATH
+set -gx PATH /home/asher/develop/thirdparty/TensorRT-8.6.1.6/bin $PATH
+set -gx LD_LIBRARY_PATH /home/asher/develop/thirdparty/TensorRT-8.6.1.6/lib $LD_LIBRARY_PATH
 set -gx LD_LIBRARY_PATH /usr/local/cuda/lib64 $LD_LIBRARY_PATH
 set -gx LD_LIBRARY_PATH /usr/local/lib $LD_LIBRARY_PATH
 set -gx PKG_CONFIG_PATH /usr/local/lib/pkgconfig $PKG_CONFIG_PATH
@@ -83,10 +83,10 @@ end
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-if test -f /home/kalfazed/miniconda3/bin/conda
-    eval /home/kalfazed/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+if test -f /home/asher/anaconda3/bin/conda
+    eval /home/asher/anaconda3/bin/conda "shell.fish" "hook" $argv | source
 end
 # <<< conda initialize <<<
 
 # Please create your own conda env and actvate it here
-conda activate trt-starter
+# conda activate trt-starter
