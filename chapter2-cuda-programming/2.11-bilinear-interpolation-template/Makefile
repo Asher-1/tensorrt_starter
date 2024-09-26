@@ -33,7 +33,7 @@ INCS          :=  -I $(CUDA_DIR)/include \
 
 LIBS          :=  -L "$(CUDA_DIR)/lib64" \
                   -lcudart -lcublas -lcudnn \
-									`pkg-config --libs opencv`
+									`pkg-config --libs opencv4 2>/dev/null || pkg-config --libs opencv`
 
 ifeq ($(DEBUG),1)
 CUDAFLAGS     +=  -g -O0 -G
