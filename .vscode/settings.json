@@ -1,7 +1,8 @@
 {
     "files.associations": {
-        "*.cpp": "cpp",
         "*.cu": "cuda-cpp",
-        "chrono": "cpp"
+        "*.cpp": "cpp",
+        "chrono": "cpp",
+        "string": "cpp"
     }
 }
